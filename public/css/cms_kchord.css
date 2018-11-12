@@ -1,0 +1,83 @@
+.navbar-custom{
+    background-color: #000;
+}
+
+.topbar .topbar-left{
+    background-color: #000;
+}
+
+.button-menu-mobile{
+    background-color: #000;
+}
+
+form.operations{
+    display: inline;
+}
+
+.footer{
+    padding: 0!important;
+}
+
+#sidebar-menu > ul > li > a.active i{
+    color: #dfb973;
+}
+
+#sidebar-menu > ul > li > a.active{
+    color: #dfb973;
+}
+
+#sidebar-menu > ul > li > a{
+     color: #5F4F31;
+}
+
+#sidebar-menu ul ul li.active a{
+    color: #dfb973;
+}
+
+#sidebar-menu ul ul a:hover{
+     color: #5F4F31;
+}
+
+#sidebar-menu ul ul a{
+     color: #5F4F31;
+}
+
+#sidebar-menu > ul > li.nav-active > a{
+    color: #5F4F31;
+}
+
+.nav-user img{
+    width: 46px;
+    height: 46px;
+}
+
+td.out-of-stock{
+    background-color: #dc3545; 
+    color: #f8f9fa; 
+    vertical-align: middle;
+}
+
+#toast-container > .toast {
+    background-image: none !important;
+}
+
+#toast-container > .toast:before {
+    position: fixed;
+    font-family: "Font Awesome 5 free";
+    font-size: 24px;
+    font-weight:900;
+    line-height: 18px;
+    float: left;
+    color: #FFF;
+    padding-right: 0.5em;
+    margin: auto 0.5em auto -1.5em;
+}        
+
+#toast-container > .toast-warning:before {
+    content: "\f001";
+}
+
+#toast-container > .toast-error:before {
+    content: "\f071";
+
+}

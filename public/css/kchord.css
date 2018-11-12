@@ -1,0 +1,252 @@
+img#tagline{
+    width: 70px;
+}
+
+img#full-logo{
+    width: 100px;
+    height: 36.354px;
+}
+
+/* navbar cart */
+nav.navbar .cart-no{
+    background-color: #dfb973;
+}
+
+.owl-dots .owl-dot.active span{
+    background-color: #dfb973!important;
+}
+
+#scrollTop{
+    background-color: #dfb973;
+}
+
+.btn-primary, .btn-template{
+    background-color: #dfb973;
+    border-color: #dfb973;
+}
+
+footer.main-footer .services-block .item:hover .icon{
+    color: #dfb973;
+}
+
+.btn-primary:hover, .btn-template:hover{
+    background-color: #cea14e;
+    border-color: #dbb062;
+}
+
+.title-colors{
+    color: #efefef;
+}
+
+section.categories .item span {
+    color: #e8e8e8;
+}
+
+nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover{
+    color: #dfb973;
+}
+
+footer.main-footer .site-links a:hover{
+    color: #dfb973;
+}
+
+footer.main-footer .info a:hover{
+    color: #dfb973;
+}
+
+footer.main-footer .copyrights a:hover{
+    color: #dfb973;
+}
+
+footer.main-footer .newsletter button:hover{
+    color: #dfb973;
+}
+
+.ribbon-primary::before{
+    border-top: 14px solid #5f5732;
+}
+
+.ribbon-primary{
+    background-color: #dfb973;
+}
+
+.product .hover-overlay a.active{
+    background-color: #dfb973;
+}
+
+.product .hover-overlay a:hover{
+    color: #dfb973;
+    border-color: #dfb973;
+}
+
+.product .hover-overlay a.visit-product:hover{
+    color: #fff;
+}
+
+.pagination-custom a.page-link.active{
+    background-color: #dfb973;
+}
+
+.products-grid h3:hover{
+    color: #dfb973;
+}
+
+a{
+    color: #dfb973;
+}
+
+a:focus, a:hover{
+    color: #cea14e;
+    text-decoration: none;
+}
+
+section.product-details .price .current{
+    color: #dfb973;
+    border-color: #dfb973;
+}
+.btn-primary:not([disabled]):not(.disabled):active, .btn-template:not([disabled]):not(.disabled):active, .btn-primary:not([disabled]):not(.disabled).active, .btn-template:not([disabled]):not(.disabled).active, .show > .btn-primary.dropdown-toggle, .show > .dropdown-toggle.btn-template{
+    background-color: #dfb973;
+    border-color: #dfb973;
+}
+
+.btn-template-outlined:hover{
+    color: #dfb973!important;
+    border-color: #dfb973!important;
+}
+
+.btn-primary.disabled, .disabled.btn-template, .btn-primary:disabled, .btn-template:disabled{
+    background-color: #dfb973;
+    border-color: #dfb973;
+}
+
+.text-primary{
+    color: #dfb973!important;
+}
+
+.dropdown-menu a:hover{
+    background-color: #dfb973;
+}
+
+#toast-container > .toast {
+    background-image: none !important;
+}
+
+#toast-container > .toast:before {
+    position: fixed;
+    font-family: "Font Awesome 5 free";
+    font-size: 24px;
+    font-weight:900;
+    line-height: 18px;
+    float: left;
+    color: #FFF;
+    padding-right: 0.5em;
+    margin: auto 0.5em auto -1.5em;
+}        
+
+#toast-container > .toast-warning:before {
+    content: "\f001";
+}
+
+#toast-container > .toast-error:before {
+    content: "\f071";
+
+}
+
+.form-control:focus{
+    border-color: #dfb973;;
+}
+
+.add-to-cart-btn{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #ddd;
+    color: #777!important;
+    border-radius: 0;
+    height: 40px;
+}
+
+.add-to-cart-btn:hover{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #dfb973;
+    color: #dfb973!important;
+    border-radius: 0;
+    height: 40px;
+}
+
+img.profile-image-style{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.add-width{
+    width: 105%;
+}
+
+.padding-small{
+    padding: 40px 0 !important;
+}
+
+section.product-description .share-product a:hover{
+    background-color: #dfb973;
+    border-color: #dfb973;
+}
+
+.page-item.active .page-link{
+    background-color: #dfb973;
+    border-color: #dfb973;
+}
+
+.customer-nav .list-group-item.active{
+    background-color: #dfb973;
+    border-color: #dfb973;
+}
+
+#top-strip-v_2017{
+    text-align: center;
+    font-size: 0;
+}
+
+#top-strip-v_2017>div{
+    display: inline-block;
+}
+
+#top-strip-v_2017>div>a>img{
+    display: block;
+
+}
+
+div.counter-up{
+    display: inline-block;
+    border: 1px solid #e0dede;
+
+
+}
+
+div.counter-content{
+
+    color:#dfb973;
+    font-size:36px;
+    line-height:normal;
+}
+
+div.counter-bottom{
+    color:#747474;
+    font-size:18px;
+}
+
+.about-icon{
+    color: #dfb973;
+}
+
+.right-col .dropdown-item:hover{
+    background-color: #dfb973;
+}
+
+.form-control-search{
+    padding: .375rem .75rem;
+    border: 1px solid #ddd;
+    background: none;
+    border-radius: 30px;
+    outline: none;
+    font-weight: 300;
+}
+
