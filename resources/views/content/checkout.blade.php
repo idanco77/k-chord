@@ -24,14 +24,14 @@
     <section class="shopping-cart">
       <div class="container">
         <div class="basket">
-          <div class="basket-holder">
+          <div class="">
             <div class="basket-header">
               <div class="row">
-                <div class="col-5">Product</div>
-                <div class="col-2">Price</div>
-                <div class="col-2">Quantity</div>
-                <div class="col-2">Total</div>
-                <div class="col-1 text-center">Remove</div>
+                <div class="col-3 col-md-5">Product</div>
+                <div class="col-2 col-md-2">Price</div>
+                <div class="col-3 col-md-2">Quantity</div>
+                <div class="col-2 col-md-2">Total</div>
+                <div class="col-1 col-md-1 text-center">Remove</div>
               </div>
             </div>
             <div class="basket-body">
@@ -39,15 +39,15 @@
               @foreach ($cart as $item)
               <div class="item">
                 <div class="row d-flex align-items-center">
-                  <div class="col-5">
-                    <div class="d-flex align-items-center"><img src="{{ asset('images/' . $item['attributes']['img']) }}" alt="{{ $item['name'] }}" class="img-fluid">
+                  <div class="col-3 col-md-5">
+                    <div class="d-flex align-items-center"><img src="{{ asset('images/' . $item['attributes']['img']) }}" alt="{{ $item['name'] }}" class="d-none d-md-block img-fluid">
                       <div class="title">
-                          <a href="detail.html"><h5>{{ $item['name'] }}</h5></a>
+                          <h5>{{ $item['name'] }}</h5>
                       </div>
                     </div>
                   </div>
-                  <div class="col-2"><span>${{ $item['price'] }}</span></div>
-                  <div class="col-2">
+                  <div class="col-2 col-md-2"><span>${{ $item['price'] }}</span></div>
+                  <div class="col-3 col-md-2">
                     <div class="d-flex align-items-center">
                       <div class="quantity d-flex align-items-center">
                           <div class="dec-btn update-cart" data-id="{{ $item['id'] }}" data-op="minus">-</div>
@@ -56,8 +56,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-2"><span>${{ $item['price'] * $item['quantity'] }}</span></div>
-                  <div class="col-1 text-center"> <a href="{{ url('shop/remove-item/' . $item['id']) }}"><i class="delete mdi mdi-delete-variant"></i></a></div>
+                  <div class="col-2 col-md-2"><span>${{ $item['price'] * $item['quantity'] }}</span></div>
+                  <div class="col-1 col-md-1 text-center"> <a href="{{ url('shop/remove-item/' . $item['id']) }}"><i class="delete mdi mdi-delete-variant"></i></a></div>
                 </div>
               </div>
              @endforeach
@@ -103,7 +103,7 @@
       </div>
     </section>
      @else
-    <p class="display-3 text-center py-5 my-5"><i>No items in the cart</i></p>
+    <p class="display-3 text-center py-5 my-5"><i class="far fa-sad-tear"></i><br><i>No items in the cart</i></p>
     @endif
 
 @endsection

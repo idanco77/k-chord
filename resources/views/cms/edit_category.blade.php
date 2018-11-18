@@ -21,8 +21,8 @@
             <span class="text-danger">{{ $errors->first('title') }}</span>
         </div>
         <div class="form-group">
-            <label for="article">Article</label>
-            <textarea name="article" id="article" class="form-control">{{ $item['article'] }}</textarea>
+            <label for="cat-article">Article</label>
+            <input value="{{ $item['article'] }}" type="text" name="article" class="form-control" id="cat-article">
             <span class="text-danger">{{ $errors->first('article') }}</span>
         </div>
         <div class="form-group">
@@ -30,8 +30,8 @@
             <input value="{{ $item['url'] }}" type="text" name="url" class="form-control target-text" id="url">
             <span class="text-danger">{{ $errors->first('url') }}</span>
         </div>
-       
-        
+
+
         <img src="{{ asset('images/' . $item['image']) }}" alt="{{ $item['title'] }}" width="50"><br>
         <small>* Recommended size: 350 x 200 px</small>
         <div class="input-group mb-3">

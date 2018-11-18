@@ -19,8 +19,8 @@
             <span class="text-danger">{{ $errors->first('title') }}</span>
         </div>
         <div class="form-group">
-            <label for="article">Article</label>
-            <textarea name="article" id="article" class="form-control" placeholder="Article">{{ old('article') }}</textarea>
+            <label for="cat-article">Article</label>
+            <input value="{{ old('article') }}" type="text" name="article" class="form-control" id="cat-article" placeholder="Article">
             <span class="text-danger">{{ $errors->first('article') }}</span>
         </div>
         <div class="form-group">
@@ -41,8 +41,8 @@
 
         </div>
         <span class="text-danger">{{ $errors->first('image') }}</span><br>
-        
-        
+
+
 
         <button type="submit" name="submit" class="btn btn-success"><i class="mdi mdi-content-save"></i> Save category</button>
         <a href="{{ url('cms/categories') }}" class="btn btn-light"><i class=" mdi mdi-keyboard-backspace"></i> Cancel</a>

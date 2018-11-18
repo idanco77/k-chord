@@ -13,7 +13,7 @@
         <div class="card m-b-20">
             <div class="card-body">
 
-                <h4 class="mt-0 header-title">K-Chords next concert</h4>
+                <h4 class="mt-0 header-title">K-Chord's next concert</h4>
 <!--                <p class="text-muted m-b-30 font-14">Example of google maps.</p>-->
 
                 <div id="gmaps-markers" class="gmaps"></div>
@@ -24,7 +24,7 @@
         <div class="card m-b-20">
             <div class="card-body">
 
-                <h4 class="mt-0 header-title">K-Chords team office</h4>
+                <h4 class="mt-0 header-title">K-Chord's office and concert hall</h4>
 <!--                <p class="text-muted m-b-30 font-14"></p>-->
 
                 <div id="gmaps-overlay" class="gmaps"></div>

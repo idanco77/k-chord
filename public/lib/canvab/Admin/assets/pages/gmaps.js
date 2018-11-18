@@ -55,7 +55,7 @@
       map.drawOverlay({
         lat: map.getCenter().lat(),
         lng: map.getCenter().lng(),
-        content: '<div class="gmaps-overlay">K-Chords Concert Hall!<div class="gmaps-overlay_arrow above"></div></div>',
+        content: '<div class="gmaps-overlay">K-Chord\'s Concert Hall!<div class="gmaps-overlay_arrow above"></div></div>',
         verticalAlign: 'top',
         horizontalAlign: 'center'
       });

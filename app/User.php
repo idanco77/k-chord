@@ -108,7 +108,8 @@ class User extends Model {
         $user->save();
 
         $uid = $user->id;
-        DB::insert('INSERT INTO users_roles VALUES(?, ?)', [$uid, $request['role']]);
+        
+        DB::insert('insert into users_roles (uid, rid) values (?, ?)', [$uid, $request['role']]);
 
         Session::flash('sm', 'User added');
     }

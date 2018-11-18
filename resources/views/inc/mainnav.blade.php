@@ -34,18 +34,18 @@
 
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                            <a id="navbarHomeLink" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">
+                            <a id="navbarHomeLink" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">
                                 <i class="fas fa-user"></i>
                             </a>
                             <ul aria-labelledby="navbarDropdownHomeLink" class="dropdown-menu">
                                 <li>
                                     <a id="userdetails" href="{{ url('user/login') }}" class="dropdown-item">
-                                        <i class="fas fa-sign-in-alt"></i> <small>Login</small>                             
+                                         <small><i class="fas fa-sign-in-alt"></i> Login</small>                             
                                     </a>
                                 </li>
                                 <li>
                                     <a id="userdetails" href="{{ url('user/register') }}" class="dropdown-item">
-                                        <i class="fas fa-user-plus"></i> <small>Register</small>                             
+                                        <small><i class="fas fa-user-plus"></i> Register</small>                             
                                     </a>
                                 </li>
                             </ul>
@@ -79,7 +79,7 @@
                             <i class="icon-cart"></i>
                             <div class="cart-no">{{Cart::getTotalQuantity()}}</div>
                         </a>
-                        <a href="cart.html" class="text-primary view-cart">View Cart</a>
+                        <a href="{{ url('shop/checkout') }}" class="text-primary view-cart">View Cart</a>
                         <div aria-labelledby="cartdetails" class="dropdown-menu">
                             <!-- cart item-->
                             @if(Cart::getTotalQuantity() >= 1)

@@ -9,7 +9,7 @@ use DB;
 class PagesController extends MainController {
 
     public function home() {
-        self::$data['title'] .= 'Home';
+        self::$data['title'] = 'K-Chord';
         return view('content.home', self::$data);
     }
 

@@ -37,6 +37,7 @@ class ShopController extends MainController {
     }
 
     public function addToCart(Request $request) {
+       
         Product::addToCart($request['pid']);
     }
 

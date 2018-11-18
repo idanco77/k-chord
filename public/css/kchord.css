@@ -238,7 +238,7 @@ div.counter-bottom{
 }
 
 .right-col .dropdown-item:hover{
-    background-color: #dfb973;
+    background-color: none;
 }
 
 .form-control-search{
